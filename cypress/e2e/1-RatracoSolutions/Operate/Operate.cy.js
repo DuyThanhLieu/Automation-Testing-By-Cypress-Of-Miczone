@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
- describe('Demo test login ', () => {  
+ describe('Operate RatracoSolutions', () => {  
     it ('Verify that user can login with valid username and password', () => {
         cy.visit('https://staging-internal.woka.io/choose-apps')
         cy.get('#loginEmailInput').type('toannguyen@ratracosolutions.com');
@@ -14,6 +14,5 @@
     //cy.get('.Mui-selected').click();
     //cy.get('.css-1coeexk').click('bottom')
     cy.get('.MuiCollapse-wrapperInner > .MuiList-root > :nth-child(1) > .MuiListItemText-root > .MuiTypography-root').click(80, 75)
-
     });
 });
