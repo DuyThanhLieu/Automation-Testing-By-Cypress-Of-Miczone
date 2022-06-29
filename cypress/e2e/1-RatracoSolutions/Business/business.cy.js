@@ -12,3 +12,4 @@
       cy.get('.css-1fyudqa').click({ position:'topLeft'});
             });
 });
+// Create the modal windows_1_1 loadingChoices  function_name   for the modal windows_1_1 windows_1_1   window_1_1 windows_1_1 windows_1_1 windows_1
